@@ -1,4 +1,4 @@
-#Given the following values to the variables number 1 and number 2:
+#Given the following values to the variables number 1 and number 2: "number 1=5" and "number 2= 20"
 number1 =5
 number2 = 20
 addition = number1 + number2
