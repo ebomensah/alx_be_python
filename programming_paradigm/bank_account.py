@@ -7,10 +7,10 @@ class BankAccount: #Create account
         print(f"Deposited ${amount:,.2f}") 
         
     def withdraw(self, amount):        
-        self.account_balance -= amount
-        print(f"Withdrew ${amount:,.2f}")
-        return True
-        if amount > balance:
+        if self.account_balance > amount:
+            self.account_balance -= amount
+            print(f"Withdrew ${amount:,.2f}")
+        else:
             print ("Insufficient funds.")
             return False
             
