@@ -10,8 +10,8 @@ class BankAccount: #Create account
         self.account_balance -= amount
         print(f"Withdrew ${amount:,.2f}")
         return True
-        if self.account_balance < amount:
-            print ("Insufficient funds for this withdrawal.")
+        if amount > balance:
+            print ("Insufficient funds.")
             return False
             
     def display_balance(self):
