@@ -8,7 +8,7 @@ class BankAccount: #Create account
         
     def withdraw(self, amount):        
         if amount > self.account_balance:
-            return ("Insufficient funds.")
+            raise "Insufficient funds."
         else:
             self.account_balance -= amount
             return(f"Withdrew ${amount:,.2f}")
