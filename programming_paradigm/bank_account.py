@@ -17,8 +17,5 @@ class BankAccount: #Create account
     def display_balance(self):
         print(f"Current Balance: ${self.account_balance:,.2f}")
 
-
 if __name__ == "__main__":
-    account = BankAccount(100)
-account.withdraw(1000)
-account.display_balance()
+    account = BankAccount()
