@@ -12,7 +12,6 @@ class BankAccount: #Create account
             return(f"Withdrew ${amount:,.2f}")
         else:
             return ("Insufficient funds.")
-            return False
             
     def display_balance(self):
         print(f"Current Balance: ${self.account_balance:,.2f}")
