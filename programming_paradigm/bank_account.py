@@ -10,7 +10,7 @@ class BankAccount: #Create account
         if self.account_balance > amount:
             self.account_balance -= amount
             return(f"Withdrew ${amount:,.2f}")
-        else:
+        elif amount > initial_balance:
             return ("Insufficient funds.")
             return False
             
