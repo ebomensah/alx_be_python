@@ -4,9 +4,9 @@ def safe_divide (numerator, denominator):
         denominator = float(denominator)
         result = numerator/denominator
     except ZeroDivisionError:
-        raise [Error: Cannot divide by zero.]
-    except TypeError:
-        raise ("Error: Please enter numeric values only.")
+        raise Error: Cannot divide by zero.
+    except ValueError:
+        raise Error: Please enter numeric values only.
     else: 
         return (f"The result of division is {result}")
     
