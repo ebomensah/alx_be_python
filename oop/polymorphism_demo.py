@@ -1,6 +1,5 @@
 import math 
 
-
 class Shape:
     def area(self):
         raise NotImplementedError("This method should be overridden by subclasses")
