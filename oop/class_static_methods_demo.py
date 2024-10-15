@@ -1,7 +1,7 @@
 class Calculator:
     calculation_type = "Arithmetic Operations"
 
-    staticmethod
+    @staticmethod
     def add(a,b):
         return a + b
     
